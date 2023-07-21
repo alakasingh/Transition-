@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: azure;
+            border: black solid;
+
+            transition-property: all;
+            transition-duration: 1s;
+            transition-delay: 1s;
+            transition-timing-function: linear;/*----- ease in /ease /ease out ------*/
+        }
+        .box:hover{
+            width: 1200px;
+            background-color: rgb(183, 95, 178);
+            height: 400px;
+        }
+    
+        /*----------shorthand Notation ------------------*/
+       /* transition: all 2s ease-in 5s;----------for more visite W3School ------------------*/
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Hello! Devlopers</h1>
+        <h3>this is practice code fo learning Transition Properties.</h3>
+
+    </div>
+</body>
+</html>
